@@ -1,0 +1,33 @@
+@media screen and (max-width: 600px) {
+    /* Styles for small screens */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+.invitation-card {
+    max-width: 210mm; /* A4 width */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e31717;
+    background: linear-gradient(white, transparent),
+                /*linear-gradient(to top left, rgb(21, 222, 236), transparent),*/
+                linear-gradient(to top right, rgb(228, 85, 19), transparent);
+                /* linear-gradient(to top, rgb(228, 85, 19), transparent); */
+    background-blend-mode: screen;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 24px;
+    color: black;
+}
+p {
+    font-size: 16px;
+    color: black;
+}
+
+#text {
+    text-align: center;
+}
+}
